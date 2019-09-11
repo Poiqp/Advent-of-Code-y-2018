@@ -19,7 +19,7 @@ template_data.close()
 def comparaison(start_index, initial_state):
     for instance in range(len(templates)):
         if initial_state[start_index:start_index+5]==templates[instance][0:5]:
-            return instance
+            return instanceprint(l[recipe:recipe+10])
     return -1
 
 #Plant function | applies template to new gen
